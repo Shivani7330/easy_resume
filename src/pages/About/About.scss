@@ -1,0 +1,129 @@
+@use "../../styles/colors" as colors;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
+
+.about {
+  // width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  .top {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+    margin-bottom: 8rem;
+
+    .title {
+      @include font_montserrat(600, 36px);
+      color: colors.$black;
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      @include font_space(400, 16px);
+      max-width: 904px;
+      line-height: 1.5rem;
+      color: colors.$black;
+    }
+  }
+
+  .middle {
+    width: 100%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8rem;
+
+    & .title {
+      @include font_montserrat(600, 32px);
+      color: colors.$black;
+      margin-bottom: 2rem;
+    }
+
+    & h3 {
+      @include font_space(600, 24px);
+      color: colors.$primary_indigo;
+      margin-bottom: 1rem;
+    }
+
+    .features {
+      width: 900px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+
+      @media (max-width: 720px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .feature {
+        margin: 10px;
+        padding: 20px;
+        width: calc(50% - 20px);
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+
+        & img {
+          width: 150px;
+          height: auto;
+          align-self: flex-end;
+        }
+
+        & .desc {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: start;
+          gap: 0.5rem;
+
+          & h2 {
+            @include font_montserrat(600, 20px);
+            color: colors.$black;
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+          }
+
+          & p {
+            @include font_space(300, 14px);
+            max-width: 200px;
+            line-height: 1.5;
+            color: colors.$black;
+          }
+        }
+      }
+    }
+  }
+  .bottom {
+    flex: 1;
+
+    & h1 {
+      @include font_montserrat(600, 28px);
+      color: colors.$black;
+    }
+
+    .social {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 40px;
+    }
+  }
+}
