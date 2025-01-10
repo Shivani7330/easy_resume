@@ -16,3 +16,4 @@
 - Global State with Redux
 - CSS style with Scss
 - Holistic form handling with react-hook-form
+-

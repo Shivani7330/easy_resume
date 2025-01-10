@@ -12,23 +12,23 @@ const About = () => {
       <div className="top">
         <h1 className="title">About ezyResume</h1>
         <p className="description">
-          ezyResume is a collaborative project developed by a passionate team of
-          friends with a mission to revolutionize the job-seeking process. We
-          recognized the need for an innovative solution to connect job seekers
-          with recruiters efficiently and effectively. Our goal is to help you
-          find your ideal job faster, without the hassle of traditional resume
-          building methods. We have carefully designed our resume templates to
-          meet industry standards and gain acceptance from top HR departments,
-          ensuring that your resume stands out in a competitive job market. With
-          ezyResume, you can easily create an impressive resume that makes a
-          memorable first impression, tailored to showcase your unique skills
-          and experiences. Our user friendly platform allows for quick edits and
-          updates, keeping your resume current and relevant. Join us and take
-          the first step towards landing your dream job with ezyResume.
+          ezyResume is a collaborative project developed by me with a mission to
+          revolutionize the job-seeking process. I recognized the need for an
+          innovative solution to connect job seekers with recruiters efficiently
+          and effectively. My goal is to help you find your ideal job faster,
+          without the hassle of traditional resume building methods. I have
+          carefully designed our resume templates to meet industry standards and
+          gain acceptance from top HR departments, ensuring that your resume
+          stands out in a competitive job market. With ezyResume, you can easily
+          create an impressive resume that makes a memorable first impression,
+          tailored to showcase your unique skills and experiences. My user
+          friendly platform allows for quick edits and updates, keeping your
+          resume current and relevant. Join me and take the first step towards
+          landing your dream job with ezyResume.
         </p>
       </div>
       <div className="middle">
-        <h1 className="title">Benefits Of Using Our Product</h1>
+        <h1 className="title">Benefits Of Using my Product</h1>
         <h3>Why Choose us?</h3>
         <div className="features">
           <div className="feature">
@@ -46,7 +46,7 @@ const About = () => {
             <div className="desc">
               <h2>Cool Templates</h2>
               <p>
-                Our template designs help your resume stand out in a pool of
+                My template designs help your resume stand out in a pool of
                 others.
               </p>
             </div>
@@ -59,7 +59,7 @@ const About = () => {
             <div className="desc">
               <h2>Intelligent Design</h2>
               <p>
-                With us, you will not have to bother about the minute details of
+                With me, you will not have to bother about the minute details of
                 resume development, such as font choice, layout, etc.
               </p>
             </div>
@@ -72,7 +72,7 @@ const About = () => {
             <div className="desc">
               <h2>No Hidden Charges</h2>
               <p>
-                We have got a free version and our premium pricing is clear. We
+                I have got a free version and our premium pricing is clear. We
                 notify you about any new charges in good time.
               </p>
             </div>
