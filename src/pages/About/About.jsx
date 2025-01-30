@@ -10,9 +10,9 @@ const About = () => {
   return (
     <div className="about">
       <div className="top">
-        <h1 className="title">About ezyResume</h1>
+        <h1 className="title">About Resume Creator</h1>
         <p className="description">
-          ezyResume is a collaborative project developed by me with a mission to
+        Resume Creator is a collaborative project developed by me with a mission to
           revolutionize the job-seeking process. I recognized the need for an
           innovative solution to connect job seekers with recruiters efficiently
           and effectively. My goal is to help you find your ideal job faster,
@@ -24,7 +24,7 @@ const About = () => {
           tailored to showcase your unique skills and experiences. My user
           friendly platform allows for quick edits and updates, keeping your
           resume current and relevant. Join me and take the first step towards
-          landing your dream job with ezyResume.
+          landing your dream job with Resume Creator.
         </p>
       </div>
       <div className="middle">

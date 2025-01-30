@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <h2 className="footer-logo">ezyResume</h2>
+        <h2 className="footer-logo">Resume_Creator</h2>
         <p className="github-link">
           <a
             href="https://github.com/your-repo-url"

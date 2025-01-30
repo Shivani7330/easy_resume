@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-brand">
           <Link to="/" className="navbar-logo">
-            ezyResume
+            Resume_Creator
           </Link>
         </div>
         <div className="navbar-menu">
